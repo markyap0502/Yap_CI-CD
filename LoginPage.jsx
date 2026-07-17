@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 import "./LoginPage.css";
+import ReactDOM from "react-dom/client";
+import LoginPage from "./LoginPage";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<LoginPage />);
 
 const LoginPage = () => {
   // State for form fields and UI feedback
