@@ -1,9 +1,16 @@
 {
   "name": "finalprojtest",
   "version": "1.0.0",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.1"
+  },
   "main": "LoginPage.jsx",
   "scripts": {
-    "test": "jest"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
   },
   "devDependencies": {
     "jest": "^30.3.0"
